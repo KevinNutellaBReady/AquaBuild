@@ -21,7 +21,7 @@ public class Customitem implements CommandExecutor {
                             player.sendMessage(Messages.customItemGiveEnterhaken);
                             player.getInventory().addItem(new ItemManager("§5§lEnterhaken", Material.FISHING_ROD, (byte) 0, 1, "").build());
                         } else if(args[1].equalsIgnoreCase("booster")) {
-                            player.sendMessage(Messages.customItemGiveEnterhaken);
+                            player.sendMessage(Messages.customItemGiveBooster);
                             player.getInventory().addItem(new ItemManager("§e§lBooster", Material.BLAZE_ROD, (byte) 0, 1, "").build());
                         }
                     } else {
