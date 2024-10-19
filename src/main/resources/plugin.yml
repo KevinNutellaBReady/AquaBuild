@@ -1,0 +1,30 @@
+name: Citybuild
+version: '1.0-SNAPSHOT'
+main: me.kevin.citybuild.citybuild.Citybuild
+api-version: '1.21'
+commands:
+  gamemode:
+    permission: citybuild.gamemode
+    description: Aender deinen Gamemode!
+    aliases: [gm]
+  fly:
+    permission: citybuild.fly
+    description: Aktiviere den Flugmodus!
+  invsee:
+    permission: citybuild.invsee
+    description: Schaue in die Inventare anderer Spieler!
+  warp:
+    description: Teleportiere dich zu einem Warp!
+  setwarp:
+    description: Erstelle ein Warp
+    permission: citybuild.setwarp
+  delwarp:
+    description: Loesche ein Warp
+    permission: citybuild.delwarp
+  warps:
+    description: Oeffnet eine GUI mit allen Warps!
+  customitem:
+    description: Verwalte die Customitems!
+    permission: citybuild.customitem
+  spawn:
+    description: Teleportiere dich zum Spawn!
