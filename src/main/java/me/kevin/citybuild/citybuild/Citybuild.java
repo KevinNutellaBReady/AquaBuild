@@ -7,6 +7,7 @@ import me.kevin.citybuild.essentials.commands.*;
 import me.kevin.citybuild.essentials.listener.Join;
 import me.kevin.citybuild.essentials.listener.Quit;
 import me.kevin.citybuild.inventorys.listener.WarpInventoryClicklistener;
+import me.kevin.citybuild.mysql.MySQL;
 import me.kevin.citybuild.utils.Messages;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -41,6 +42,7 @@ public final class Citybuild extends JavaPlugin {
     }
 
     public void initializeDatabase() {
+        MySQL.connect();
 
     }
 
