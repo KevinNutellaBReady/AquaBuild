@@ -28,3 +28,9 @@ commands:
     permission: citybuild.customitem
   spawn:
     description: Teleportiere dich zum Spawn!
+  perks:
+    description: Oeffne die Perks GUI!
+    permission: citybuild.perks
+  enderchest:
+    description: Oeffnet deine Enderchest
+    aliases: [ec]

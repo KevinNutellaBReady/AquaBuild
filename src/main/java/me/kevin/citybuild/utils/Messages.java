@@ -50,6 +50,8 @@ public class Messages {
         public static String customItemGiveEnterhaken = Citybuild.getPrefix() + "Du hast dir einen §5§lEnterhaken §r§7gegeben.";
         public static String customItemGiveBooster = Citybuild.getPrefix() + "Du hast dir einen §e§lBooster §r§7gegeben.";
 
+        /* Enderchest Command */
+        public static String enderchestPlayerNotFound = Citybuild.getPrefix() + "§c§lDieser Spieler wurde nicht gefunden!";
 
 
 }

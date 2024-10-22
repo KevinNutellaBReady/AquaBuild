@@ -1,6 +1,7 @@
 package me.kevin.citybuild.customitems.listener;
 
 import me.kevin.citybuild.citybuild.Citybuild;
+import me.kevin.citybuild.customitems.Customitems;
 import me.kevin.citybuild.manager.ItemManager;
 import org.bukkit.Bukkit;
 import org.bukkit.Effect;
@@ -36,7 +37,7 @@ public class Booster implements Listener {
 
                         player.getInventory().removeItem(new ItemManager("§8§lBitte warten...", Material.BARRIER, (byte) 0, 1, "").build());
 
-                        player.getInventory().addItem(new ItemManager("§e§lBooster", Material.BLAZE_ROD, (byte) 0, 1, "").build());
+                        player.getInventory().addItem(Customitems.getBoosterItem());
                         player.playSound(player.getLocation(), Sound.ENTITY_PLAYER_LEVELUP, 1, 1);
                     }
                 }, 100);
