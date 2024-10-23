@@ -11,8 +11,8 @@ import org.bukkit.Bukkit;
 public class MySQL {
     public static String host = "localhost";
     public static String port = "3306";
-    public static String database = "AquarisMC";
-    public static String username = "myadmin";
+    public static String database = "Minecraft";
+    public static String username = "Kevin";
     public static String password = "Lenha.120507";
 
 

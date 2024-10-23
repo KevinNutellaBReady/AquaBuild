@@ -4,6 +4,7 @@ import me.kevin.citybuild.customitems.commands.Customitem;
 import me.kevin.citybuild.customitems.listener.Booster;
 import me.kevin.citybuild.customitems.listener.Enterhaken;
 import me.kevin.citybuild.essentials.commands.*;
+import me.kevin.citybuild.essentials.listener.Drop;
 import me.kevin.citybuild.essentials.listener.Join;
 import me.kevin.citybuild.essentials.listener.Quit;
 import me.kevin.citybuild.inventorys.listener.WarpInventoryClicklistener;
@@ -59,6 +60,7 @@ public final class Citybuild extends JavaPlugin {
         getCommand("spawn").setExecutor(new Spawn());
         getCommand("perks").setExecutor(new Perks());
         getCommand("enderchest").setExecutor(new Enderchest());
+        getCommand("kit").setExecutor(new Kit());
     }
 
     public void registerListeners() {
@@ -67,6 +69,7 @@ public final class Citybuild extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new WarpInventoryClicklistener(), this);
         Bukkit.getPluginManager().registerEvents(new Enterhaken(), this);
         Bukkit.getPluginManager().registerEvents(new Booster(), this);
+        Bukkit.getPluginManager().registerEvents(new Drop(), this);
     }
 
     public static String getPrefix() {

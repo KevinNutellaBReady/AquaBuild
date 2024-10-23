@@ -1,6 +1,7 @@
 package me.kevin.citybuild.essentials.listener;
 
 import me.kevin.citybuild.citybuild.Citybuild;
+import me.kevin.citybuild.manager.FirstJoinManager;
 import me.kevin.citybuild.manager.PerksDatabaseManager;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -20,6 +21,9 @@ public class Join implements Listener {
         /* Perks Database */
         if(!PerksDatabaseManager.isRegistered(player)) {
             PerksDatabaseManager.register(player);
+            FirstJoinManager.sendFirstJoinMessage(player);
+            FirstJoinManager.setFirstJoinItems(player);
+
         }
     }
 }
