@@ -34,3 +34,16 @@ commands:
   enderchest:
     description: Oeffnet deine Enderchest
     aliases: [ec]
+  kit:
+    description: Waehle dir ein Kit
+    permission: citybuild.kit
+  spy:
+    description: Spioniere Spieler
+    permission: citybuild.spy
+  vanish:
+    description: Sei unsichtbar fuer andere Spieler
+    permission: citybuild.vanish
+    aliases: [v]
+  adminshop:
+    description: Oeffne den Adminshop
+    aliases: [as]
