@@ -61,6 +61,9 @@ public final class Citybuild extends JavaPlugin {
         getCommand("perks").setExecutor(new Perks());
         getCommand("enderchest").setExecutor(new Enderchest());
         getCommand("kit").setExecutor(new Kit());
+        getCommand("spy").setExecutor(new Spy());
+        getCommand("vanish").setExecutor(new Vanish());
+        getCommand("adminshop").setExecutor(new Adminshop());
     }
 
     public void registerListeners() {

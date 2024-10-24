@@ -53,5 +53,11 @@ public class Messages {
         /* Enderchest Command */
         public static String enderchestPlayerNotFound = Citybuild.getPrefix() + "§c§lDieser Spieler wurde nicht gefunden!";
 
+        /* Spy Command */
+        public static String spyCommandSyntaxError = Citybuild.getPrefix() + "§c§lBitte benutze /spy [Spielername]";
+
+        /* Vanish Command */
+        public static String vanishEnabled = Citybuild.getPrefix() + "Du bist nun im §e§lVanish";
+        public static String vanishDisabled = Citybuild.getPrefix() + "Du bist nun aus dem §e§lVanish";
 
 }
