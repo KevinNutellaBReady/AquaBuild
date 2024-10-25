@@ -11,10 +11,13 @@ public class PerkInventory {
     public static Inventory getPerkInventory(Player player) {
         Inventory inventory = player.getServer().createInventory(null, 45, "§a§lPerks");
 
+        /* Perk-Items */
         inventory.setItem(18, new ItemManager("§b§lSpeed§r§7§l-§r§b§lPerk", Material.DIAMOND_BOOTS, (byte) 0, 1, "").build());
         inventory.setItem(20, new ItemManager("§e§lHaste§r§7§l-§r§e§lPerk", Material.GOLDEN_PICKAXE, (byte) 0, 1, "").build());
         inventory.setItem(22, new ItemManager("§b§lDoublejump§r§7§l-§r§b§lPerk", Material.DIAMOND_BOOTS, (byte) 0, 1, "").build());
         inventory.setItem(24, new ItemManager("§c§lStrength§r§7§l-§r§b§lPerk", Material.IRON_SWORD, (byte) 0, 1, "").build());
+
+        inventory.setItem(44, new ItemManager("§a§lNächste Seite", Material.IRON_SWORD, (byte) 0, 1, "").build());
 
         /* Activate / Buy Item in GUI */
 
