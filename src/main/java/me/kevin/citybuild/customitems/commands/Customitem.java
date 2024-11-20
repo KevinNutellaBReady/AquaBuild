@@ -1,5 +1,6 @@
 package me.kevin.citybuild.customitems.commands;
 
+import me.kevin.citybuild.customitems.Customitems;
 import me.kevin.citybuild.manager.ItemManager;
 import me.kevin.citybuild.utils.Messages;
 import org.bukkit.Material;
@@ -19,10 +20,10 @@ public class Customitem implements CommandExecutor {
                     if(args[0].equalsIgnoreCase("give")) {
                         if(args[1].equalsIgnoreCase("enterhaken")) {
                             player.sendMessage(Messages.customItemGiveEnterhaken);
-                            player.getInventory().addItem(new ItemManager("§5§lEnterhaken", Material.FISHING_ROD, (byte) 0, 1, "").build());
+                            player.getInventory().addItem(Customitems.getEnterhakenItem());
                         } else if(args[1].equalsIgnoreCase("booster")) {
-                            player.sendMessage(Messages.customItemGiveEnterhaken);
-                            player.getInventory().addItem(new ItemManager("§e§lBooster", Material.BLAZE_ROD, (byte) 0, 1, "").build());
+                            player.sendMessage(Messages.customItemGiveBooster);
+                            player.getInventory().addItem(Customitems.getBoosterItem());
                         }
                     } else {
                         player.sendMessage(Messages.customItemSyntaxError);

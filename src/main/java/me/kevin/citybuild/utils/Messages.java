@@ -50,6 +50,23 @@ public class Messages {
         public static String customItemGiveEnterhaken = Citybuild.getPrefix() + "Du hast dir einen §5§lEnterhaken §r§7gegeben.";
         public static String customItemGiveBooster = Citybuild.getPrefix() + "Du hast dir einen §e§lBooster §r§7gegeben.";
 
+        /* Enderchest Command */
+        public static String enderchestPlayerNotFound = Citybuild.getPrefix() + "§c§lDieser Spieler wurde nicht gefunden!";
 
+        /* Spy Command */
+        public static String spyCommandSyntaxError = Citybuild.getPrefix() + "§c§lBitte benutze /spy [Spielername]";
+
+        /* Vanish Command */
+        public static String vanishEnabled = Citybuild.getPrefix() + "Du bist nun im §e§lVanish";
+        public static String vanishDisabled = Citybuild.getPrefix() + "Du bist nun aus dem §e§lVanish";
+
+        /* Perk Command */
+        public static String PerkCommandSyntaxError = Citybuild.getPrefix() + "§c§lBitte benutze: /perk [Spieler] [Perk] [add/remove]";
+        public static String addPerkCommand = Citybuild.getPrefix() + "Du hast dem Spieler: §e§l%s §r§7das Perk §e§l%p §r§7hinzugefügt.";
+        public static String removePerkCommand = Citybuild.getPrefix() + "Du hast dem Spieler: §e§l%s §r§7das Perk §e§l%p §r§7entfernt.";
+
+        /* Kit Command */
+        public static String kitPlayer = Citybuild.getPrefix() + "§7§lDu hast dir das §a§lSpieler§8§l-§7§lKit gegeben.";
+        public static String kitSyntaxError = Citybuild.getPrefix() + "§7§l/kit [Kitname]";
 
 }
