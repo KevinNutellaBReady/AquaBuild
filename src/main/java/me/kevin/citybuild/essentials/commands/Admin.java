@@ -14,6 +14,8 @@ public class Admin implements CommandExecutor {
             if(player.hasPermission("citybuild.admin")) {
                  player.sendMessage("Player Admin Control Panel opened");
 
+
+
             } else {
                 player.sendMessage(Messages.NoPermission);
             }

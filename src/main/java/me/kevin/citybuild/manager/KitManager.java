@@ -37,6 +37,8 @@ public class KitManager {
             player.getInventory().addItem(new ItemStack(Material.TORCH, 6));
             player.sendMessage(Messages.kitPlayer);
 
+        } else if(kit.equalsIgnoreCase("diamond")) {
+
         }
     }
 

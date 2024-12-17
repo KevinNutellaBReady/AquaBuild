@@ -69,4 +69,8 @@ public class Messages {
         public static String kitPlayer = Citybuild.getPrefix() + "§7§lDu hast dir das §a§lSpieler§8§l-§7§lKit gegeben.";
         public static String kitSyntaxError = Citybuild.getPrefix() + "§7§l/kit [Kitname]";
 
+        /* Admin Control Panel */
+        public static String AdminControlPanelSyntaxError = Citybuild.getPrefix() + "§7Bitte benutze: "   ;
+
+
 }
